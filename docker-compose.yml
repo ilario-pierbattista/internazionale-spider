@@ -1,0 +1,16 @@
+version: "3.7"
+
+services: 
+    node:
+        image: microsoft/playwright:bionic
+        build: 
+            context: docker
+        volumes: 
+            - .:/app
+            - ./.cache:/home/pwuser/.cache
+            - /tmp/.X11-unix:/tmp/.X11-unix
+        tty: true
+        working_dir: /app
+        environment: 
+            - DISPLAY
+

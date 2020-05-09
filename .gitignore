@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+downloads/
+docker-compose.override.yml
+log/

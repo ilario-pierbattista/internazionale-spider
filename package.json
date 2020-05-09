@@ -1,0 +1,21 @@
+{
+  "name": "internazionale-spider",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fp-ts": "^2.5.4",
+    "playwright": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  }
+}
